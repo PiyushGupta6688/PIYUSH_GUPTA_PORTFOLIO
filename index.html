@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Gupta - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="assets/bg-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    <!-- Custom Cursor for Projects -->
+    <div id="custom-cursor"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">PG</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1 class="glitch" data-text="Piyush Gupta">Piyush Gupta</h1>
+            </div>
+            <p class="tagline">Full Stack Java Developer | Spring Boot | React | REST APIs</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-button primary">View Projects</a>
+                <a href="#contact" class="cta-button secondary">Contact Me</a>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="assets/profile.jpg" alt="Piyush Gupta">
+                </div>
+                <div class="bio">
+                    <p>I'm a passionate full-stack Java developer with expertise in Spring Boot, React.js, and RESTful APIs. I love building scalable web apps and participating in hackathons. Currently pursuing B.Tech in IT from GL Bajaj Institute of Technology and Management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/docmeet.jpg" alt="DocMeet – Doctor App">
+                    </div>
+                    <h3>DocMeet – Doctor App</h3>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>REST APIs</span>
+                        <span>MySQL</span>
+                        <span>Thymeleaf</span>
+                        <span>Spring Security</span>
+                        <span>OAuth</span>
+                    </div>
+                    <p>A secure healthcare platform with real-time video consultations, AI doctor matching, and OAuth2 login.</p>
+                    <a href="https://github.com/PiyushGupta6688/Doctor-App" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Project
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/booklicious.png" alt="Booklicious – E-commerce App">
+                    </div>
+                    <h3>Booklicious – E-commerce App</h3>
+                    <div class="tech-stack">
+                        <span>Java</span>
+                        <span>Spring MVC</span>
+                        <span>JSP</span>
+                        <span>REST APIs</span>
+                        <span>MySQL</span>
+                    </div>
+                    <p>A full-featured bookstore app with admin panel, cart, and secure user auth.</p>
+                    <a href="https://github.com/PiyushGupta6688/Booklicious_Web_Application" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">Spring MVC</span>
+                        <span class="skill-item">Hibernate</span>
+                        <span class="skill-item">Servlets</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">React.js</span>
+                        <span class="skill-item">Redux</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">JSP</span>
+                        <span class="skill-item">Thymeleaf</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">Oracle</span>
+                        <span class="skill-item">MS SQL Server</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>APIs & Security</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item">JWT</span>
+                        <span class="skill-item">OAuth2</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Postman</span>
+                        <span class="skill-item">Firebase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <a href="mailto:piyushgupta249@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>piyushgupta249@gmail.com</span>
+                </a>
+                <a href="tel:+917683053452" class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91-7683053452</span>
+                </a>
+                <a href="https://linkedin.com/in/piyush-gupta-3b6751256" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/PiyushGupta6688" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://leetcode.com/piyush_1704" target="_blank" class="contact-item">
+                    <i class="fas fa-code"></i>
+                    <span>LeetCode</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Piyush Gupta. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
